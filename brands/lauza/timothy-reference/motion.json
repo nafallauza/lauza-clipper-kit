@@ -1,0 +1,130 @@
+{
+  "cameraBeats": [
+    {
+      "start": 20.34,
+      "end": 22.26,
+      "zoom": 1.055,
+      "attack": 0.45,
+      "release": 0.4,
+      "target": "speaker-face",
+      "purpose": "cash received"
+    },
+    {
+      "start": 27.1,
+      "end": 29.6,
+      "zoom": 1.045,
+      "attack": 0.55,
+      "release": 0.4,
+      "target": "speaker-face",
+      "purpose": "receivables contrast"
+    },
+    {
+      "start": 42.88,
+      "end": 45.13333333333333,
+      "zoom": 1.065,
+      "attack": 0.7,
+      "release": 0.4,
+      "target": "speaker-face",
+      "purpose": "business punchline"
+    }
+  ],
+  "icons": [
+    {
+      "kind": "revenue",
+      "start": 1.84,
+      "end": 2.68,
+      "x": 900,
+      "y": 440,
+      "sound": "cash"
+    },
+    {
+      "kind": "work",
+      "start": 9.35,
+      "end": 10.58,
+      "x": 170,
+      "y": 460,
+      "sound": "pop"
+    },
+    {
+      "kind": "cash",
+      "start": 20.9,
+      "end": 21.96,
+      "x": 930,
+      "y": 300,
+      "sound": "cash"
+    },
+    {
+      "kind": "receivable",
+      "start": 27.58,
+      "end": 29.6,
+      "x": 170,
+      "y": 460,
+      "sound": "paper"
+    },
+    {
+      "kind": "bank",
+      "start": 35.65,
+      "end": 36.46,
+      "x": 150,
+      "y": 430,
+      "sound": "slide"
+    },
+    {
+      "kind": "alert",
+      "start": 39.5,
+      "end": 40.27,
+      "x": 925,
+      "y": 280,
+      "sound": "pop"
+    },
+    {
+      "kind": "receipt",
+      "start": 44.66,
+      "end": 45.6,
+      "x": 900,
+      "y": 440,
+      "sound": "paper"
+    }
+  ],
+  "music": false,
+  "cameraFocusY": 0.28,
+  "iconBackground": false,
+  "openingPullback": {
+    "zoom": 1.58,
+    "hold": 0,
+    "duration": 1.65,
+    "curve": "quintic-smoothstep",
+    "target": "speaker-face",
+    "focusY": 0.3
+  },
+  "bottomGradient": {
+    "topY": 760,
+    "bottomY": 1920,
+    "stops": [
+      [
+        0,
+        0
+      ],
+      [
+        0.18,
+        0.1
+      ],
+      [
+        0.38,
+        0.3
+      ],
+      [
+        0.6,
+        0.58
+      ],
+      [
+        0.8,
+        0.8
+      ],
+      [
+        1,
+        0.95
+      ]
+    ]
+  }
+}

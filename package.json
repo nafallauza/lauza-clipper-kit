@@ -1,0 +1,27 @@
+{
+  "name": "lauza-clipper-kit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "check": "tsc --noEmit",
+    "doctor": "python scripts/doctor.py",
+    "compositions": "remotion compositions src/index.ts",
+    "render:preview": "remotion render src/index.ts LauzaStylePreview out/style-preview.mp4 --codec=h264",
+    "render:reference": "remotion render src/index.ts LauzaTimothyReference out/timothy-reference.mp4 --codec=h264",
+    "preview:offline": "node scripts/render-preview.cjs"
+  },
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.539"
+  },
+  "devDependencies": {
+    "@remotion/cli": "4.0.539",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "~5.9.3"
+  },
+  "license": "UNLICENSED",
+  "description": "Portable Lauza 2D neo-brutalism podcast clipper workflow"
+}

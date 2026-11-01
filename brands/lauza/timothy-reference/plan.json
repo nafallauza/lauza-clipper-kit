@@ -1,0 +1,167 @@
+{
+  "name": "Timothy / Neo-brutalism 2D experiment",
+  "source": "brands/lauza/timothy-reference/source.mp4",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "duration": 52,
+  "frames": 1560,
+  "videoDelayFrames": 0,
+  "wordTimingSource": "brands/lauza/timothy-reference/words.input.json",
+  "wordTimingStatus": "external-acoustic-alignment-requires-review",
+  "legacyMatchingIntervals": 0,
+  "anchors": {
+    "omzet": 1.84,
+    "twenty": 13.3,
+    "margin": 15.08,
+    "profit": 16.34,
+    "cash": 20.9,
+    "piutang": 22.26,
+    "piutangAgain": 27.58,
+    "ilusi": 38.82,
+    "hiroshima": 40.42,
+    "bom": 42.14,
+    "business": 42.88,
+    "bon": 44.66,
+    "sehat": 48.92,
+    "marginHealth": 48.12,
+    "scale": 50.9
+  },
+  "fonts": {
+    "dialogue": "Adwaita Sans",
+    "keyword": "Montserrat ExtraBold",
+    "expression": "Caladea Italic"
+  },
+  "captionPolicy": {
+    "speakerOnly": true,
+    "hideDuringFullMotion": true,
+    "quoteUsesOwnTypography": true,
+    "maxLines": 3
+  },
+  "sourceSHA256": "4cf6e0886762fcd36edc25474d00afd48d7f1c222f536f5e26f4012928138f0f",
+  "scenes": [
+    {
+      "id": "speaker-typographic-hook",
+      "start": 0,
+      "end": 3.4,
+      "mode": "overlay"
+    },
+    {
+      "id": "empty-wallet",
+      "start": 5.24,
+      "end": 7.68,
+      "mode": "full"
+    },
+    {
+      "id": "profit",
+      "start": 13.3,
+      "end": 18.689999999999998,
+      "mode": "full"
+    },
+    {
+      "id": "cash",
+      "start": 20.7,
+      "end": 21.810000000000002,
+      "mode": "overlay"
+    },
+    {
+      "id": "piutang",
+      "start": 22.26,
+      "end": 25.46,
+      "mode": "full"
+    },
+    {
+      "id": "paper",
+      "start": 30.139999999999997,
+      "end": 35.18,
+      "mode": "full"
+    },
+    {
+      "id": "illusion",
+      "start": 36.52,
+      "end": 39.47,
+      "mode": "full"
+    },
+    {
+      "id": "quote",
+      "start": 40.27,
+      "end": 45.26,
+      "mode": "overlay"
+    },
+    {
+      "id": "foundation",
+      "start": 46.66,
+      "end": 52,
+      "mode": "full"
+    }
+  ],
+  "status": "reference-media-not-bundled",
+  "output": "out/timothy-reference/timothy-reference.mp4",
+  "captionFonts": {
+    "dialogue": "Adwaita Sans",
+    "keyword": "Montserrat",
+    "expression": "Caladea Italic"
+  },
+  "captionCenterY": 1420,
+  "speakerBottomGradient": {
+    "topY": 760,
+    "bottomY": 1920,
+    "stops": [
+      [
+        0,
+        0
+      ],
+      [
+        0.18,
+        0.1
+      ],
+      [
+        0.38,
+        0.3
+      ],
+      [
+        0.6,
+        0.58
+      ],
+      [
+        0.8,
+        0.8
+      ],
+      [
+        1,
+        0.95
+      ]
+    ]
+  },
+  "captionTextOutline": false,
+  "captionTextShadow": false,
+  "addedMusic": false,
+  "sfxCues": 82,
+  "motionConfig": "motion.json",
+  "cameraMaxZoom": 1.58,
+  "iconBackground": false,
+  "style": {
+    "mode": "neo-brutalism-2d",
+    "colors": {
+      "background": "#E6E6E6",
+      "white": "#F7F7F7",
+      "ink": "#171717",
+      "yellow": "#F4CB46",
+      "structure": "#5C5C5C",
+      "surface": "#CFCFCF",
+      "gray": "#B7B7B7"
+    },
+    "threeDimensional": false,
+    "reference": "docs/STYLE.md",
+    "personMatte": false,
+    "paletteStatus": "user-approved-black-gray-yellow"
+  },
+  "openingPullback": {
+    "zoom": 1.58,
+    "hold": 0,
+    "duration": 1.65,
+    "curve": "quintic-smoothstep",
+    "target": "speaker-face",
+    "focusY": 0.3
+  }
+}

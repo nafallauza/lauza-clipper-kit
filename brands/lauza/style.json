@@ -1,0 +1,15 @@
+{
+  "name": "Lauza podcast / 2D rectangular neo-brutalism",
+  "scope": "Different podcasts and speakers; visual identity is shared, shot content is not",
+  "format": {"width": 1080, "height": 1920, "fps": 30},
+  "colors": {
+    "paper": "#E6E6E6", "white": "#F7F7F7", "ink": "#171717",
+    "yellow": "#F4CB46", "structure": "#5C5C5C", "surface": "#CFCFCF", "gray": "#B7B7B7"
+  },
+  "typography": {"dialogue": "Adwaita Sans", "keyword": "Montserrat", "expression": "Caladea Italic", "minimumWords": 2, "maximumWords": 5, "captionCenterYStartingPoint": 1420, "blackOutline": false},
+  "graphics": {"dimensionality": "2D", "rectangularShapes": true, "hardOffsetShadowsOnGraphics": true, "iconBackingPlate": false, "animateObjectActions": true},
+  "camera": {"target": "active speaker face", "preserveHairAndChin": true, "rebuildTrackingPerClip": true, "openingPullback": "optional; fit to this speaker and source headroom"},
+  "audio": {"addedMusicByDefault": false, "voiceLUFSBeforeMaster": -16, "masterLUFS": -14, "maximumTruePeakDBTP": -1.5, "soundEffectsFollowActions": true},
+  "safeZone": {"bottomExcludedPx": 300, "avoidLowerRightPlatformUI": true},
+  "perClip": ["speaker identities and active turns", "source shot cuts", "face crop", "real acoustic intervals", "semantic anchors", "numbers", "illustrations", "SFX selection and contacts"]
+}

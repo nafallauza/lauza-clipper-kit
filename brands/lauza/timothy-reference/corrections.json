@@ -1,0 +1,110 @@
+[
+  {
+    "from": "omset",
+    "to": "omzet",
+    "s": 1.84,
+    "e": 2.46
+  },
+  {
+    "from": "bertahun -tahun",
+    "to": "bertahun-tahun",
+    "s": 3.26,
+    "e": 3.82
+  },
+  {
+    "from": "direk -kering",
+    "to": "di rekening",
+    "s": 5.5,
+    "e": 6.22
+  },
+  {
+    "from": "omset",
+    "to": "omzet",
+    "s": 12.8,
+    "e": 13.12
+  },
+  {
+    "from": "10 %",
+    "to": "10%",
+    "s": 15.08,
+    "e": 15.88
+  },
+  {
+    "from": "2M",
+    "to": "2 M",
+    "s": 16.34,
+    "e": 17.14
+  },
+  {
+    "from": "Stahud",
+    "to": "setahun",
+    "s": 17.86,
+    "e": 18.24
+  },
+  {
+    "from": "2M",
+    "to": "2 M",
+    "s": 19.06,
+    "e": 19.38
+  },
+  {
+    "from": "pih utang",
+    "to": "piutang",
+    "s": 22.26,
+    "e": 22.6
+  },
+  {
+    "from": "menu",
+    "to": "penuh",
+    "s": 24.6,
+    "e": 24.88
+  },
+  {
+    "from": "2M",
+    "to": "2 M",
+    "s": 26.1,
+    "e": 26.86
+  },
+  {
+    "from": "2Mnya",
+    "to": "2 M-nya",
+    "s": 26.86,
+    "e": 27.58
+  },
+  {
+    "from": "pih utang",
+    "to": "piutang",
+    "s": 27.58,
+    "e": 28.36
+  },
+  {
+    "from": "2Mnya",
+    "to": "2 M-nya",
+    "s": 29.6,
+    "e": 30.2
+  },
+  {
+    "from": "Emang saya",
+    "to": "misalnya",
+    "s": 32.52,
+    "e": 32.88
+  },
+  {
+    "from": "2M",
+    "to": "2 M",
+    "s": 33.32,
+    "e": 34.04
+  },
+  {
+    "from": "bomb",
+    "to": "bom",
+    "s": 42.14,
+    "e": 42.4
+  },
+  {
+    "from": "bond",
+    "to": "bon",
+    "s": 44.66,
+    "e": 44.98
+  }
+]
