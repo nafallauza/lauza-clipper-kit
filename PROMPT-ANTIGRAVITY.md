@@ -32,7 +32,7 @@ Tidak perlu meminta konfirmasi ulang untuk langkah rutin yang bisa dibalik.
 ## Push repo — hanya bila memang hendak mengunggah
 
 ```text
-Aku mengizinkan push repo kit ini ke [URL_REPO_GITHUB_TUJUAN].
+Aku mengizinkan push repo kit ini ke https://github.com/nafallauza/lauza-clipper-kit.git.
 Baca AGENTS.md. Periksa git status dan file yang akan dikirim.
 Upload hanya template, kode, dokumentasi dan font berlisensi di repo ini.
 Jangan sertakan video pribadi, transkrip job produksi baru, media audio,
